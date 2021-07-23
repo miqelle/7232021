@@ -5,8 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lecture 5</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    
+    <!-- Enter each item they have for sale. Go through each item and print them in console. 
+    Print them on the webpage-->
+<div>
+    <h1>List It!</h1>
+    <input type="text" placeholder="Enter item description">
+    <input type="text" placeholder="Enter item price">
+    <form action="#">
+    <label for="img">Select Image</label>
+    <input type="file" id="img" name="img" accept="image/*">
+    <button>List Items</button>
+    <p id="items"></p>
+
+</form>
+</div>  
 </body>
+<script src="app.js"></script>
 </html>
